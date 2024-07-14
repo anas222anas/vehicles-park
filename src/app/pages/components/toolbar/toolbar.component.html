@@ -1,0 +1,7 @@
+<div [ngStyle]="{'justify-content': isEnglish ? 'right' : 'left'}" class="toolbar-container">
+        <app-search [config]="config" style="width: 20%">
+        </app-search>
+        <app-language class="item"></app-language>
+        <app-notifications class="item" [notifications]="notifications"></app-notifications>
+        <app-profile [profile]="profile" style="width: 211px;"></app-profile>
+</div>

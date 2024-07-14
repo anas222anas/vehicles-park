@@ -1,0 +1,106 @@
+<div class="card-container">
+    <div class="header">
+        <div class="title">
+            {{data.title}}
+        </div>
+        <div class="mode-show-icon">
+            <div class="icon-show">
+                <img src="../../../../../assets/four-square.png" alt="">
+            </div>
+            <div class="icon-show">
+                <img src="../../../../../assets/three-line.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="container-cars">
+        @for (car of data.cars; track car; let idx = $index) {
+        <input (change)="changeDetected()" [id]="'car_uniqe_value' + idx" #checkedSelect style="display:none;"
+            type="checkbox" />
+        <div class="container-car-details">
+            <label class="container-car" [for]="'car_uniqe_value' + idx">
+                <div class="img-car-shadow">
+                    <img  [ngClass]="{'animate-car': checkedSelect.checked}" src="../../../../../assets/car-shadow.png" alt="">
+                </div>
+                <div class="circle" [ngStyle]="{'background-color': car.color}"></div>
+                <div class="name">{{car.name}}</div>
+                <div class="container-arrow">
+                    <span *ngIf="!checkedSelect.checked" class="material-symbols-outlined arrow">
+                        keyboard_arrow_down
+                    </span>
+                    <span *ngIf="checkedSelect.checked" class="material-symbols-outlined arrow">
+                        keyboard_arrow_up
+                    </span>
+                </div>
+            </label>
+            
+            <div *ngIf="checkedSelect.checked" class="container-details">
+                <!-- <div [ngStyle]="{'height': !checkedSelect.checked ? '0px' : '150px'}" class="container-details"> -->
+                <div class="container-car-items">
+                    <div class="car-item icon">
+                        <img src="../../../../../assets/camera.png" alt="">
+                    </div>
+                    <div class="car-item name">Camera</div>
+                    <div class="car-item value">{{car.camera}}</div>
+                    <div class="car-item state">
+                        <div class="state-value">
+                            Active
+                        </div>
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-car-items">
+                    <div class="car-item icon">
+                        <img src="../../../../../assets/wifi.png" alt="">
+                    </div>
+                    <div class="car-item name">Network</div>
+                    <div class="car-item value">{{car.wifi}}</div>
+                    <div class="car-item state">
+                        <div class="state-value">
+                            Active
+                        </div>
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-car-items">
+                    <div class="car-item icon">
+                        <img src="../../../../../assets/memory.png" alt="">
+                    </div>
+                    <div class="car-item name">Memory</div>
+                    <div class="car-item value">{{car.memory}}</div>
+                    <div class="car-item state">
+                        <div class="state-value">
+                            Normal
+                        </div>
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-car-items">
+                    <div class="car-item icon">
+                        <img src="../../../../../assets/temperature.png" alt="">
+                    </div>
+                    <div class="car-item name">CPU Temp</div>
+                    <div class="car-item value">{{car.cpu}}</div>
+                    <div class="car-item state" [ngStyle]="{'background': +car.cpu >=70 ? '#ffcaca' : '#cfefe6'}">
+                        <div class="state-value" [ngStyle]="{'color': +car.cpu >=70 ? '#E63438' : '#00AE7D'}">
+                            High
+                        </div>
+                        <div class="circle" [ngStyle]="{'background': +car.cpu >=70 ? '#E63438' : '#00AE7D'}">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="container-layout">
+    <div class="sidnav">
+        <div class="logo">
+            <img src="../../../../assets/logo.png" alt="">
+            <div class="text-logo">Logo</div>
+        </div>
+        <div class="sidnav-items">
+            <div *ngFor="let item of sidnavItems; let i = index" class="sidnav-item" (click)="acivated(i)">
+                <img [src]="item.urlImg" alt="">
+                <div class="sidnav-text"[class.isActive]="item.isActive">{{item.text}}</div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-header-content">
+        <div class="tool-bar">
+            <app-toolbar></app-toolbar>
+        </div>
+        <div class="container-content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

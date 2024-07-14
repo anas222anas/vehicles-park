@@ -1,0 +1,227 @@
+.card-container {
+    width: 98%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 20px #1785C61A;
+    border-radius: 20px;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+        font: normal normal bold 24px/24px Frutiger LT Pro;
+        letter-spacing: 0px;
+        color: #0C1834;
+        padding: 2% 2% 0;
+    }
+
+    .mode-show-icon {
+        display: flex;
+        justify-content: flex-end;
+
+        .icon-show {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 11px;
+            background: #F6F8FD 0% 0% no-repeat padding-box;
+            padding: 4px 2px 0px 2px;
+            margin: 3% 10px 0;
+            cursor: pointer;
+
+            &:last-child {
+                margin: 3% 0px 0;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.container-cars {
+    flex: 9;
+    overflow-y: auto;
+    padding: 0 2%;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .container-car-details {
+        display: flex;
+        flex-direction: column;
+        background: #F6F8FE 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        margin: 5px 0;
+
+        .container-car {
+            display: flex;
+            // background: #F6F8FE 0% 0% no-repeat padding-box;
+            align-items: center;
+            // border-radius: 10px;
+            // margin: 5px 0;
+            height: 12%;
+            cursor: pointer;
+
+            .img-car-shadow {
+                width: 70px;
+                height: 60px;
+                margin: 0 1%;
+                position: relative;
+                img {
+                    transition: 0.3s;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: 0%;
+                }
+            }
+
+            .circle {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                margin: 0 1%;
+            }
+
+            .name {
+                font: normal normal normal 16px/24px Frutiger LT Pro;
+                letter-spacing: 0px;
+                color: #0C1834;
+                font-size: 16;
+            }
+
+            .container-arrow {
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+
+                .arrow {
+                    color: #1785C6;
+                    margin: 0 8%;
+                    font-size: 35px;
+                }
+            }
+
+        }
+    }
+
+}
+
+.container-details {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .container-car-items {
+        display: flex;
+        flex-direction: column;
+        min-width: 80px;
+        animation: toggle-item 0.4s forwards normal;
+
+        .car-item {
+            margin: 2% 0;
+
+        }
+
+        .icon {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            img {
+                width: 30%;
+                height: 70%;
+            }
+        }
+
+        .name {
+            font: normal normal normal 12px/20px Frutiger LT Pro;
+            letter-spacing: 0px;
+            color: #6D7485;
+            text-align: center;
+        }
+
+        .value {
+            font: normal normal bold 16px/19px Frutiger LT Pro;
+            letter-spacing: 0px;
+            color: #0C1834;
+            text-align: center;
+        }
+
+        .state {
+            background: #cfefe6 0% 0% no-repeat padding-box;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .state-value {
+                font: normal normal normal 12px/22px Frutiger LT Pro;
+                letter-spacing: 0px;
+                color: #00AE7D;
+                text-align: center;
+            }
+
+            .circle {
+                background-color: #00AE7D;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin: 0 0%;
+            }
+        }
+
+        .high {
+            background: #cfefe6 0% 0% no-repeat padding-box;
+
+            .state-value {
+                color: #E63438;
+            }
+
+        }
+    }
+
+    animation: toggle-car 0.3s forwards normal;
+
+}
+
+@keyframes toggle-car {
+    0% {
+        height: 20px;
+    }
+
+    100% {
+        height: 150px;
+    }
+}
+
+@keyframes toggle-item {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+.animate-car{
+    width: 100%;
+    height: 115% !important;
+    position: absolute;
+    bottom: 0%;
+}

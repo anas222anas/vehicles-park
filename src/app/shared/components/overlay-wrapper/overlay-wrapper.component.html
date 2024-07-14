@@ -1,0 +1,18 @@
+<!-- <div class="container" (click)=" changeOpen($event)" cdkOverlayOrigin #trigger="cdkOverlayOrigin"
+[dir]="dir">
+  <div class="overlay-header">
+    <ng-content select=".overlay-header"> </ng-content>
+  </div>
+
+  <ng-template
+  cdkConnectedOverlay
+  [cdkConnectedOverlayOrigin]="trigger"
+  [cdkConnectedOverlayOpen]="isOpen"
+
+>
+<div class="ctn"
+@elementInOut style="  position: absolute;" [ngStyle]="{'width': width+ 'px','height': height+ 'px'}">
+<ng-content  select=".overlay-body" > </ng-content>
+</div>
+</ng-template>
+</div> -->
