@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
+import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { TranslateModule } from '@ngx-translate/core';
 import { AppInjector } from './shared/services/app-injector';
@@ -23,7 +23,10 @@ import { SharedModule } from './shared/shared.module';
     SharedModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    {
+      provide: APP_BASE_HREF, useValue: '/vehicles-park/'
+    }
   ],
   bootstrap: [AppComponent]
 })
