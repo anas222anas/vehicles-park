@@ -1,0 +1,29 @@
+<div class="container-chart-cars">
+    <div class="left">
+        <div class="title">
+            Active Vehicles Vs. In-Active Vehicles
+        </div>
+        <div class="container-buttom">
+            <div class="bottom">
+                <div class="circle"></div>
+                <div class="circle-name">Active Vehicles</div>
+            </div>
+            <div class="bottom">
+                <div class="circle-in-Active"></div>
+                <div class="circle-name">In-Active Vehicles</div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <dx-pie-chart id="pie" palette="bright" [dataSource]="internetLanguages">
+            <dxo-legend horizontalAlignment="center" verticalAlignment="bottom"></dxo-legend>
+            <dxo-export [enabled]="false"></dxo-export>
+            <dxi-series argumentField="language" valueField="percent">
+                <dxo-label [visible]="true" format="fixedPoint" [customizeText]="customizeLabel">
+                    <dxo-connector [visible]="true" [width]="0.5"></dxo-connector>
+                </dxo-label>
+                <dxo-small-values-grouping mode="smallValueThreshold" [threshold]="4.5"></dxo-small-values-grouping>
+            </dxi-series>
+        </dx-pie-chart>
+    </div>
+</div>

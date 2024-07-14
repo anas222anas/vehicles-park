@@ -4,6 +4,8 @@ import { VehiclesParkComponent } from './components/vehicles-park/vehicles-park.
 import { VehiclesRoutingModule } from './vehicles-routing.module';
 import { CardWithDetailsComponent } from './components/card-with-details/card-with-details.component';
 import { CardCarsComponent } from './components/card-cars/card-cars.component';
+import { ChartActiveCarComponent } from './components/chart-active-car/chart-active-car.component';
+import { DxPieChartModule } from 'devextreme-angular';
 
 
 
@@ -11,11 +13,13 @@ import { CardCarsComponent } from './components/card-cars/card-cars.component';
   declarations: [
     VehiclesParkComponent,
     CardWithDetailsComponent,
-    CardCarsComponent
+    CardCarsComponent,
+    ChartActiveCarComponent
   ],
   imports: [
     CommonModule,
     VehiclesRoutingModule,
+    DxPieChartModule
   ]
 })
 export class VehiclesModule { }
