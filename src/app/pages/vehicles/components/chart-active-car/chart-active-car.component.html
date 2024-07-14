@@ -15,14 +15,14 @@
         </div>
     </div>
     <div class="right">
-        <dx-pie-chart id="pie" palette="bright" [dataSource]="internetLanguages">
-            <dxo-legend horizontalAlignment="center" verticalAlignment="bottom"></dxo-legend>
+        <dx-pie-chart id="pie" palette="bright" [dataSource]="internetLanguages" [palette]="colors" (onPointHoverChanged)="onPointHoverChanged($event)">
+            <dxo-legend horizontalAlignment="center" verticalAlignment="bottom" [visible]="false"></dxo-legend>
             <dxo-export [enabled]="false"></dxo-export>
             <dxi-series argumentField="language" valueField="percent">
                 <dxo-label [visible]="true" format="fixedPoint" [customizeText]="customizeLabel">
-                    <dxo-connector [visible]="true" [width]="0.5"></dxo-connector>
+                    <dxo-connector [visible]="true" [width]="0.8"></dxo-connector>
                 </dxo-label>
-                <dxo-small-values-grouping mode="smallValueThreshold" [threshold]="4.5"></dxo-small-values-grouping>
+                <!-- <dxo-small-values-grouping mode="smallValueThreshold" [threshold]="4.5"></dxo-small-values-grouping> -->
             </dxi-series>
         </dx-pie-chart>
     </div>

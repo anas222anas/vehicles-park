@@ -112,7 +112,15 @@
 
 .container-maps {
     display: flex;
-    height: 90%;
+    height: 67%;
     width: 100%;
-    background-color: red;
+    padding-top: 3%;
+    app-map{
+        height: 100%;
+        width: 100%;
+    }
+}
+.empty{
+    height: 14%;
+    width: 100%;
 }

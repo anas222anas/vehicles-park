@@ -6,6 +6,7 @@ import { CardWithDetailsComponent } from './components/card-with-details/card-wi
 import { CardCarsComponent } from './components/card-cars/card-cars.component';
 import { ChartActiveCarComponent } from './components/chart-active-car/chart-active-car.component';
 import { DxPieChartModule } from 'devextreme-angular';
+import { MapComponent } from './components/map/map.component';
 
 
 
@@ -14,7 +15,8 @@ import { DxPieChartModule } from 'devextreme-angular';
     VehiclesParkComponent,
     CardWithDetailsComponent,
     CardCarsComponent,
-    ChartActiveCarComponent
+    ChartActiveCarComponent,
+    MapComponent
   ],
   imports: [
     CommonModule,

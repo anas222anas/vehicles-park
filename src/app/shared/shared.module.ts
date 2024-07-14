@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { OverlayWrapperComponent } from './components/overlay-wrapper/overlay-wrapper.component';
 import { LanguageComponent } from './components/language/language.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
@@ -15,7 +14,6 @@ import { MatIconModule } from "@angular/material/icon";
 import { TranslateModule } from '@ngx-translate/core';
 @NgModule({
   declarations: [
-    OverlayWrapperComponent,
     LanguageComponent,
     NotificationsComponent,
     ProfileComponent,
@@ -34,7 +32,6 @@ import { TranslateModule } from '@ngx-translate/core';
     TranslateModule
   ],
   exports: [
-    OverlayWrapperComponent,
     LanguageComponent,
     NotificationsComponent,
     ProfileComponent,

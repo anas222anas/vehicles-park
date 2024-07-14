@@ -17,17 +17,17 @@ export class VehiclesParkComponent implements OnInit{
   cars: CardCarsModel = {
     title: 'VPark Fleet',
     cars: [
-      {name: 'Smart Vehicles 1', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 2', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 3', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 4', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 5', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 6', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 7', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 8', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 9', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 10', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'},
-      {name: 'Smart Vehicles 11', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: 'orange'}
+      {name: 'Smart Vehicles 1', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#F9B317'},
+      {name: 'Smart Vehicles 2', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '60', color: '#00AB80'},
+      {name: 'Smart Vehicles 3', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '90', color: '#00AB80'},
+      {name: 'Smart Vehicles 4', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#F9B317'},
+      {name: 'Smart Vehicles 5', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '20', color: '#E63438'},
+      {name: 'Smart Vehicles 6', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '30', color: '#00AB80'},
+      {name: 'Smart Vehicles 7', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#F9B317'},
+      {name: 'Smart Vehicles 8', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#F9B317'},
+      {name: 'Smart Vehicles 9', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#F9B317'},
+      {name: 'Smart Vehicles 10', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#E63438'},
+      {name: 'Smart Vehicles 11', camera: 'Online', wifi: 'Available', memory: '20%', cpu: '70', color: '#00AB80'}
     ]
   }
 
