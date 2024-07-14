@@ -14,11 +14,11 @@ export class WrapperComponent implements OnInit{
   sidnavItems!: SidnavItem[]
   constructor(private router: Router, private route: ActivatedRoute){
     this.sidnavItems = [
-      {text: 'Home', isActive: true, urlImg: '../../../../assets/home.svg'},
-      {text: 'Operation', isActive: false, urlImg: '../../../../assets/transaction.svg'},
-      {text: 'Map', isActive: false, urlImg: '../../../../assets/map.svg'},
-      {text: 'Reports', isActive: false, urlImg: '../../../../assets/report.png'},
-      {text: 'Control Panel', isActive: false, urlImg: '../../../../assets/panel.png'}
+      {text: 'Home', isActive: true, urlImg: 'assets/home.svg'},
+      {text: 'Operation', isActive: false, urlImg: 'assets/transaction.svg'},
+      {text: 'Map', isActive: false, urlImg: 'assets/map.svg'},
+      {text: 'Reports', isActive: false, urlImg: 'assets/report.png'},
+      {text: 'Control Panel', isActive: false, urlImg: 'assets/panel.png'}
     ]
   }
   ngOnInit(): void {

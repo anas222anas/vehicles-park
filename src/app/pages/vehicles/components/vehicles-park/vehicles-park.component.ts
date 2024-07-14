@@ -8,10 +8,10 @@ import { CardCarsModel } from '../card-cars/card-cars.component';
   styleUrl: './vehicles-park.component.scss'
 })
 export class VehiclesParkComponent implements OnInit{
-  cardWithDeatils1: CardWithDeatilsModel = {img: '../../../../../assets/logo.png', value: '2,108', description: 'Total Violations'}
-  cardWithDeatils2: CardWithDeatilsModel = {img: '../../../../../assets/note-search.png', value: '100,000', description: 'Total Dectations'}
-  cardWithDeatils3: CardWithDeatilsModel ={img: '../../../../../assets/car.png', value: '48', description: 'Total Actives Vehocles'}
-  cardWithDeatils4: CardWithDeatilsModel ={img: '../../../../../assets/distance.png', value: '50,000', description: 'Total Distance in KM'}
+  cardWithDeatils1: CardWithDeatilsModel = {img: 'assets/logo.png', value: '2,108', description: 'Total Violations'}
+  cardWithDeatils2: CardWithDeatilsModel = {img: 'assets/note-search.png', value: '100,000', description: 'Total Dectations'}
+  cardWithDeatils3: CardWithDeatilsModel ={img: 'assets/car.png', value: '48', description: 'Total Actives Vehocles'}
+  cardWithDeatils4: CardWithDeatilsModel ={img: 'assets/distance.png', value: '50,000', description: 'Total Distance in KM'}
   ngOnInit(): void {
   }
   cars: CardCarsModel = {
