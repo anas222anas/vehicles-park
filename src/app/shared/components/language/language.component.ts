@@ -21,6 +21,7 @@ export class LanguageComponent implements OnInit{
     this.changeLang(this.currentLang)
   }
   ngOnInit(): void {
+
   }
 
   changeLang(lang: string){

@@ -1,8 +1,8 @@
 .container-dropdown {
     background: #F6F8FD 0% 0% no-repeat padding-box;
     border-radius: 11px;
-    // padding: 10px;
     padding: 0.8rem;
+    position: relative;
 }
 
 label.dropbtn {
@@ -26,10 +26,7 @@ label.dropbtn {
 .dropdown-content-language {
     display: none;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 8px 30px #083F5F3D;
     border-radius: 0px 0px 20px 20px;
-    position: absolute;
-    top: 0;
 }
 
 .dropdown-content-language label {
@@ -39,24 +36,24 @@ label.dropbtn {
     cursor: pointer;
 }
 
-input:checked~.dropdown .dropdown-content-language {
+input:checked~.container-dropdown .dropdown .dropdown-content-language {
     position: absolute;
     display: block;
     padding: 0 15px;
-    top: 10vh;
+    top: 100%;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 200;
     animation: animateMenu 0.3s normal ease-out;
 }
 
-input:checked~.dropdown .overlay {
+input:checked~.overlay {
     position: absolute;
     display: block;
-    width: 98%;
+    width: 100%;
     height: 100vh;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     z-index: 190;
 }
 
@@ -98,38 +95,32 @@ input:checked~.dropdown .overlay {
     .material-symbols-outlined {
         direction: rtl;
     }
-    input:checked~.dropdown .dropdown-content-language {
-        position: absolute;
-        display: block;
-        padding: 0 15px;
-        top: 10vh;
-        right: 62.2%;
+    input:checked~.container-dropdown .dropdown .dropdown-content-language {
+        right: unset;
+        left: 0;
     }
 }
 ::ng-deep [dir="ltr"] {
     .material-symbols-outlined {
         direction: ltr;
     }
-    input:checked~.dropdown .dropdown-content-language {
-        position: absolute;
-        display: block;
-        padding: 0 15px;
-        top: 10vh;
-        right: 25.5%;
+    input:checked~.container-dropdown .dropdown .dropdown-content-language {
+        right: 0;
+        left: unset;
     }
 }
-@media only screen and (min-width: 1800px) {
-    ::ng-deep [dir="rtl"] {
-        input:checked~.dropdown .dropdown-content-language {
-            right: 73.2%;
-        }
-    }
-    ::ng-deep [dir="ltr"] {
-        input:checked~.dropdown .dropdown-content-language {
-            right: 18%;
-        }
-    }
-}
+// @media only screen and (min-width: 1800px) {
+//     ::ng-deep [dir="rtl"] {
+//         input:checked~.container-dropdown .dropdown .dropdown-content-language {
+//             right: 73.2%;
+//         }
+//     }
+//     ::ng-deep [dir="ltr"] {
+//         input:checked~.container-dropdown .dropdown .dropdown-content-language {
+//             right: 18%;
+//         }
+//     }
+// }
 
 @keyframes animateMenu {
     0% {

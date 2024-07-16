@@ -31,7 +31,7 @@
         <div class="tool-bar">
             <app-toolbar></app-toolbar>
         </div>
-        <div class="container-content">
+        <div class="container-content" [ngClass]="{'arabic': !isEnglish}">
             <router-outlet></router-outlet>
         </div>
     </div>

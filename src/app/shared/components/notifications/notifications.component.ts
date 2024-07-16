@@ -9,18 +9,16 @@ import { LANGUAGE } from '../language/language.component';
   styleUrl: './notifications.component.scss'
 })
 export class NotificationsComponent implements OnInit, AfterContentChecked{
-  isEnglish = true
   hidden = false;
 
 
-  constructor(private language: TranslateService, private changeDetector: ChangeDetectorRef) {
+  constructor(private changeDetector: ChangeDetectorRef) {
     
   }
   ngAfterContentChecked(): void {
     this.changeDetector.detectChanges()
   }
   ngOnInit(): void {
-    this.isEnglish = this.language.currentLang == LANGUAGE.English
   }
   @Input('notifications') notifications: Notifications[] = []
 

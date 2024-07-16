@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { LANGUAGE } from '../../../shared/components/language/language.component';
+import { TranslateService } from '@ngx-translate/core';
 interface SidnavItem{
   text: string;
   isActive: boolean;
@@ -11,8 +13,9 @@ interface SidnavItem{
   styleUrl: './wrapper.component.scss'
 })
 export class WrapperComponent implements OnInit{
+  isEnglish = true
   sidnavItems!: SidnavItem[]
-  constructor(private router: Router, private route: ActivatedRoute){
+  constructor(private router: Router, private route: ActivatedRoute, private language: TranslateService){
     this.sidnavItems = [
       {text: 'Home', isActive: true, urlImg: 'assets/home.svg'},
       {text: 'Operation', isActive: false, urlImg: 'assets/transaction.svg'},
@@ -22,6 +25,9 @@ export class WrapperComponent implements OnInit{
     ]
   }
   ngOnInit(): void {
+    this.language.onLangChange.subscribe(lang => {
+      this.isEnglish = lang.lang == LANGUAGE.English
+    })
   }
 
   acivated(index: number){
