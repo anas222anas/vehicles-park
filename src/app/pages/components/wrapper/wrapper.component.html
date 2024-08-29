@@ -9,6 +9,16 @@
                 <img [src]="item.urlImg" alt="">
                 <div class="sidnav-text"[class.isActive]="item.isActive">{{item.text}}</div>
             </div>
+            <!-- <div *ngFor="let item of sidnavItems; let i = index" class="sidnav-item" (click)="acivated(i)">
+                <div>
+                    <img [src]="item.urlImg" alt="">
+                    <div class="sidnav-text" [class.isActive]="item.isActive">{{item.text}}</div>
+                </div>
+                <div class="nav-item-circle-selected">
+                    <div></div>
+                </div>
+            </div> -->
+
             <div class="need-help-in-bottom">
                 <div class="need-help">
                     <div class="img-question">
@@ -21,7 +31,7 @@
                             <div class="discover-container">
                                 <div class="discover">Discover</div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

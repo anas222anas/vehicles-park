@@ -9,6 +9,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { TranslateModule } from '@ngx-translate/core';
 import { AppInjector } from './shared/services/app-injector';
 import { SharedModule } from './shared/shared.module';
+import { NgxsModule } from '@ngxs/store';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     TranslateModule.forRoot(),
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    MatDialogModule,
+    NgxsModule.forRoot()
   ],
   providers: [
     provideAnimationsAsync(),

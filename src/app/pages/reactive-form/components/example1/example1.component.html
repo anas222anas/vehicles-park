@@ -1,0 +1,105 @@
+<form class="example-form" [formGroup]="example1Form" (ngSubmit)="onSubmit()">
+    <div class="container-form">
+
+        <mat-form-field class="example-full-width">
+            <mat-label>First Name</mat-label>
+            <input matInput placeholder="please enter your first name" formControlName="firstName">
+            <mat-error *ngIf="example1Form.get('firstName')?.hasError('required')">
+                First name is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Last Name</mat-label>
+            <input matInput placeholder="please enter your last name" formControlName="lastName">
+            <mat-error *ngIf="example1Form.get('lastName')?.hasError('required')">
+                Last name is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput formControlName="password" placeholder="Enter your password" type="password">
+            <mat-error *ngIf="example1Form.get('password')?.hasError('required')">
+                Password is required
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('password')?.hasError('minlength')">
+                Password must be at least {{example1Form.get('password')?.errors?.['minlength']?.requiredLength}} characters long
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Confirm Password</mat-label>
+            <input matInput formControlName="confirmPassword" placeholder="Confirm your password" type="password">
+            <mat-error *ngIf="example1Form.get('confirmPassword')?.hasError('required')">
+                Confirming your password is required
+            </mat-error>
+            <mat-hint *ngIf="example1Form?.hasError('passwordsMismatch')">
+                Passwords must match
+            </mat-hint>
+        </mat-form-field>
+
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input type="text" matInput placeholder="test@gmail.com" [errorStateMatcher]="matcher"
+                formControlName="email">
+            <mat-error *ngIf="example1Form.get('email')?.hasError('required')">
+                Email is <strong>required</strong>
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('email')?.hasError('email')">
+                {{"email must be like test@gmail.com"}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Age</mat-label>
+            <input type="text" matInput placeholder="please enter your age" formControlName="age">
+            <mat-error *ngIf="example1Form.get('age')?.hasError('required')">
+                Age is required
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('age')?.hasError('notNumeric')">
+                Enter a valid number
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Salary</mat-label>
+            <input type="number" matInput placeholder="please enter your Salary" formControlName="salary">
+            <mat-error *ngIf="example1Form.get('salary')?.hasError('required')">
+                Salary is required
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Expeted Salary</mat-label>
+            <input type="number" matInput placeholder="please enter your expeted salary"
+                formControlName="expetedSalary">
+            <mat-error *ngIf="example1Form.get('expetedSalary')?.hasError('required')">
+                Expeted salary is required
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('expetedSalary')?.hasError('min')">
+                Expeted salary must be more than {{example1Form.get('expetedSalary')?.errors?.['min']?.min}}
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('expetedSalary')?.hasError('max')">
+                Expeted salary must be less than {{example1Form.get('expetedSalary')?.errors?.['max']?.max}}
+            </mat-error>
+            <mat-error *ngIf="example1Form.get('expetedSalary')?.hasError('pattern')">
+                Enter a valid number
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Leave a description</mat-label>
+            <textarea matInput placeholder="It makes me feel..."></textarea>
+            <mat-error *ngIf="example1Form.get('cc')?.hasError('required')">
+                Age is required
+            </mat-error>
+        </mat-form-field>
+
+        <div class="example-full-width">
+        </div>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+</form>

@@ -1,0 +1,25 @@
+.example-form {
+  width: 100%;
+}
+
+.container-form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.example-full-width {
+  min-width: 260px;
+  max-width: calc(50% - 18%);
+  width: 100%;
+  margin: 0 1%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+mat-hint{
+  color: #f44336;
+}

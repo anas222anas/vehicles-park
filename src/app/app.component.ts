@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
   constructor(private router: Router, route: ActivatedRoute, @Inject(DOCUMENT) private document: Document){
-    router.navigate(['pages', 'vehicles'], {relativeTo: route})
+    router.navigate(['pages', 'dynamic-form', 'create'], {relativeTo: route})
     this.document.body.dir = 'ltr';
   }
   ngOnInit(): void {

@@ -10,6 +10,14 @@ const routes: Routes = [
             {
                 path: 'vehicles',
                 loadChildren: () => import('./vehicles/vehicles.module').then(m => m.VehiclesModule)
+            },
+            {
+                path: 'reactive-form',
+                loadChildren: () => import('./reactive-form/reactive-form.module').then(m => m.ReactiveFormModule)
+            },
+            {
+                path: 'dynamic-form',
+                loadChildren: () => import('./dynamic-form/dynamic-form.module').then(m => m.DynamicFormModule)
             }
         ]
     },

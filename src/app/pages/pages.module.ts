@@ -4,6 +4,8 @@ import { WrapperComponent } from './components/wrapper/wrapper.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { SharedModule } from '../shared/shared.module';
+import { MatButtonModule } from '@angular/material/button';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
@@ -14,6 +16,7 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     PagesRoutingModule,
+    MatButtonModule,
     SharedModule
   ]
 })

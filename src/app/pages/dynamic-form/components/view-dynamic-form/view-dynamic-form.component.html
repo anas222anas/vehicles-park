@@ -1,0 +1,12 @@
+<header class="title">View For Dynamic Form</header>
+<form class="container" [formGroup]="viewFormGroup" (ngSubmit)="onSubmit()">
+    <div class="container-inputs">
+        @for (customInput of viewFormConfig; track $index) {
+        <app-custom-input class="input" [formGroup]="viewFormGroup" [key]="customInput.key"
+            [config]="customInput"></app-custom-input>
+        }
+    </div>
+    <div class="container-button">
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+    </div>
+</form>

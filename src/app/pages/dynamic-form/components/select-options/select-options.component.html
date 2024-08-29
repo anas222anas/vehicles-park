@@ -1,0 +1,38 @@
+<header class="title">Option</header>
+<form class="container-form" [formGroup]="optionForm" (ngSubmit)="onSubmit()">
+    <div class="container-inputs">
+
+        <mat-form-field class="container-input">
+            <mat-label>Value</mat-label>
+            <input type="text" matInput placeholder="please enter uniqe value" formControlName="value"
+                [errorStateMatcher]="matcher">
+            @if (optionForm.get('value')?.hasError('required')) {
+            <mat-error>
+                value is required
+            </mat-error>
+            }
+            @if (optionForm.get('value')?.hasError('pattern')) {
+            <mat-error>
+                space not allowed
+            </mat-error>
+            }
+        </mat-form-field>
+
+        <mat-form-field class="container-input">
+            <mat-label>Label</mat-label>
+            <input type="text" matInput placeholder="please enter label" formControlName="label">
+            @if (optionForm.get('label')?.hasError('required')) {
+            <mat-error>
+                label is required
+            </mat-error>
+            }
+        </mat-form-field>
+    </div>
+    <div class="container-buttons">
+        <div>
+            <button mat-raised-button color="primary" type="submit">Add</button>
+            <button mat-raised-button color="danger" type="reset">Reset</button>
+        </div>
+        <button mat-raised-button color="danger" type="button" (click)="close()">Close</button>
+    </div>
+</form>

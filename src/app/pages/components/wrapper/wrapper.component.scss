@@ -190,3 +190,19 @@
     padding: 10px 30px 10px 10px;
     border-radius: 0 20px 0 0;
 }
+.nav-item-circle-selected{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #E9F0F8 0% 0% no-repeat padding-box;
+    transform: translateX(185px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #0087CC 0% 0% no-repeat padding-box;
+    }
+}

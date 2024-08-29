@@ -1,0 +1,143 @@
+<header class="title">Custom Input</header>
+<form class="container-form" [formGroup]="inputForm" (ngSubmit)="onSubmit()">
+    <div class="container-inputs">
+
+        <mat-form-field class="container-input">
+            <mat-label>Key</mat-label>
+            <input type="text" matInput placeholder="please enter uniqe key" formControlName="key"
+                [errorStateMatcher]="matcher">
+            @if (inputForm.get('key')?.hasError('required')) {
+            <mat-error>
+                key is required
+            </mat-error>
+            }
+            @if (inputForm.get('key')?.hasError('pattern')) {
+            <mat-error>
+                only [A-Z a-z] is allowed
+            </mat-error>
+            }
+        </mat-form-field>
+
+        <mat-form-field class="container-input">
+            <mat-label>Type</mat-label>
+            <mat-select formControlName="type">
+                @for (type of typesOption; track type) {
+                <mat-option [value]="type.value">{{type.label}}</mat-option>
+                }
+            </mat-select>
+            @if (inputForm.get('type')?.hasError('required')) {
+            <mat-error>
+                type is required
+            </mat-error>
+            }
+        </mat-form-field>
+
+        <mat-form-field class="container-input">
+            <mat-label>Label</mat-label>
+            <input type="text" matInput placeholder="please enter label" formControlName="label">
+            @if (inputForm.get('label')?.hasError('required')) {
+            <mat-error>
+                label is required
+            </mat-error>
+            }
+        </mat-form-field>
+        @if (type != types.checkbox) {
+        <mat-form-field class="container-input">
+            <mat-label>Placeholder</mat-label>
+            <input matInput formControlName="placeholder" placeholder="Enter placeholder" type="text">
+            @if (inputForm.get('placeholder')?.hasError('required')) {
+            <mat-error>
+                placeholder is required
+            </mat-error>
+            }
+            @if (inputForm.get('placeholder')?.hasError('maxlength')) {
+            <mat-error>
+                only {{inputForm.get('placeholder')?.errors?.['maxlength']?.requiredLength}}
+                characters is allowed
+            </mat-error>
+            }
+        </mat-form-field>
+        }
+
+        @if (type != types.date && type != types.checkbox) {
+        <mat-form-field class="container-input">
+            <mat-label>Default Value</mat-label>
+            <input matInput formControlName="defaultValue" placeholder="Enter default value" type="text">
+        </mat-form-field>
+        }
+
+        @if (type == types.text || type == types.password) {
+        <mat-form-field class="container-input">
+            <mat-label>Min Length</mat-label>
+            <input type="number" matInput placeholder="" [errorStateMatcher]="matcher" formControlName="minLength">
+        </mat-form-field>
+        }
+
+        @if (type == types.text || type == types.password) {
+        <mat-form-field class="container-input">
+            <mat-label>Max Lenght</mat-label>
+            <input type="number" matInput placeholder="" formControlName="maxLength">
+        </mat-form-field>
+        }
+
+        @if (type == types.number) {
+        <mat-form-field class="container-input">
+            <mat-label>Min Value</mat-label>
+            <input type="number" matInput placeholder="" formControlName="min">
+        </mat-form-field>
+        }
+
+        @if (type == types.number) {
+        <mat-form-field class="container-input">
+            <mat-label>Max Value</mat-label>
+            <input type="number" matInput placeholder="" formControlName="max">
+        </mat-form-field>
+        }
+        @if (type == types.select) {
+            <div class="container-options">
+                <mat-form-field>
+                    <mat-label>Options</mat-label>
+                    <mat-select formControlName="options" multiple="true">
+                        @for (option of selectOptions; track type) {
+                        <mat-option [value]="option.value">{{option.label}}</mat-option>
+                        }
+                    </mat-select>
+                    @if (inputForm.get('options')?.hasError('required')) {
+                    <mat-error>
+                        type is required
+                    </mat-error>
+                    }
+                </mat-form-field>
+                <span (click)="addOption()" class="material-symbols-outlined">
+                    add
+                </span>
+            </div>
+
+        }
+
+        <section class="container-input">
+            <mat-checkbox formControlName="required">
+                Required
+            </mat-checkbox>
+            @if (type != types.checkbox && type != types.select) {
+                <mat-checkbox formControlName="readonly">
+                    Readonly
+                </mat-checkbox>
+            }
+            <mat-checkbox formControlName="disabled">
+                Disabled
+            </mat-checkbox>
+        </section>
+
+        <div class="container-input">
+        </div>
+    </div>
+    <div class="container-buttons">
+        <div>
+            <button mat-raised-button color="primary" type="submit">Add</button>
+            <button mat-raised-button color="danger" type="reset">Reset</button>
+        </div>
+        <button mat-raised-button color="danger" type="button" (click)="close()">Close</button>
+    </div>
+
+</form>

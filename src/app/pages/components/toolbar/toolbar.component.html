@@ -1,4 +1,13 @@
 <div [ngStyle]="{'justify-content': isEnglish ? 'right' : 'left'}" class="toolbar-container">
+        <section>
+                <div class="example-button-row">
+                        <a mat-raised-button color="primary" [routerLink]="'./vehicles'">Vehicles</a>
+                        <a mat-raised-button color="primary" [routerLink]="'./reactive-form'">Froms</a>
+                        <a mat-raised-button color="primary" [routerLink]="'./dynamic-form'">View Form</a>
+                        <a mat-raised-button color="primary" [routerLink]="'./dynamic-form/create'">Create Form</a>
+                        
+                </div>
+        </section>
         <app-search [config]="config" style="width: 20%">
         </app-search>
         <app-language class="item"></app-language>

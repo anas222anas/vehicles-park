@@ -1,21 +1,24 @@
-.toolbar-container{
+.toolbar-container {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+
     // justify-content: right;
-    .item{
+    .item {
         margin: 0 0.9%;
     }
 }
-// :host ::ng-deep [dir="ltr"] {
-//     .toolbar-container{
-//         justify-content: right;
-//     }
-// }
 
-// :host ::ng-deep [dir="rtl"] {
-//     .toolbar-container{
-//         justify-content: left;
-//     }
-// }
+section {
+    display: table;
+}
+
+
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+    a{
+        margin: 0 5px;
+    }
+}
