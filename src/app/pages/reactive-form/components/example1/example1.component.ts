@@ -18,7 +18,7 @@ export class Example1Component implements OnInit {
   // Validators.pattern('^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
   matcher = new MyErrorStateMatcher();
   example1Form = this.formBuilder.group({
-    firstName: [null, [Validators.required, Validators.minLength(3)]],
+    firstName: [null],
     lastName: [null, Validators.minLength(3)],
     email: [null, [Validators.required, Validators.email]],
     age: [null, [Validators.required, this.numericValidator]],
