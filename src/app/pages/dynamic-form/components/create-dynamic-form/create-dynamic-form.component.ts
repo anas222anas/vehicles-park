@@ -23,24 +23,25 @@ export class CreateDynamicFormComponent implements OnDestroy {
       {
         type: TYPES.Text, key: 'fitst-name', label: 'First Name',
         placeholder: 'Enter First Name', required: true, defaultValue: 'Anas', readonly: false
-      },
-      {
-        type: TYPES.Text, key: 'last-name', label: 'Last Name',
-        placeholder: 'Enter Last Name', required: false, defaultValue: 'Zidan', maxLength: 25, minLength: 3
-      },
-      {
-        type: TYPES.Password, key: 'password', label: 'Password',
-        placeholder: 'Enter Password', required: true, disabled: false
-      },
-      {
-        type: TYPES.Number, key: 'age', label: 'Age', min: 10, max: 100,
-        placeholder: 'Enter Age', required: true
-      },
-      {
-        type: TYPES.Select, key: 'country', label: 'Country',
-        placeholder: 'select country', required: true, disabled: false, defaultValue: 1, multiple: false,
-        options: [{value: 1, label: 'UAE'}, {value: 2, label: 'Syria'}, {value: 3, label: 'Saudi'}]
       }
+      // ,
+      // {
+      //   type: TYPES.Text, key: 'last-name', label: 'Last Name',
+      //   placeholder: 'Enter Last Name', required: false, defaultValue: 'Zidan', maxLength: 25, minLength: 3
+      // },
+      // {
+      //   type: TYPES.Password, key: 'password', label: 'Password',
+      //   placeholder: 'Enter Password', required: true, disabled: false
+      // },
+      // {
+      //   type: TYPES.Number, key: 'age', label: 'Age', min: 10, max: 100,
+      //   placeholder: 'Enter Age', required: true
+      // },
+      // {
+      //   type: TYPES.Select, key: 'country', label: 'Country',
+      //   placeholder: 'select country', required: true, disabled: false, defaultValue: 1, multiple: false,
+      //   options: [{value: 1, label: 'UAE'}, {value: 2, label: 'Syria'}, {value: 3, label: 'Saudi'}]
+      // }
     ]
     this.store.dispatch(new SetConfigForDynamicFormAction(localData))
     // this.store.dispatch(new GetConfigForDynamicFormAction())

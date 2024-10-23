@@ -5,7 +5,8 @@ import { TranslateService } from '@ngx-translate/core';
 interface SidnavItem{
   text: string;
   isActive: boolean;
-  urlImg: string
+  urlImg: string;
+  routerLink?: string;
 }
 @Component({
   selector: 'app-wrapper',
@@ -17,9 +18,9 @@ export class WrapperComponent implements OnInit{
   sidnavItems!: SidnavItem[]
   constructor(private router: Router, private route: ActivatedRoute, private language: TranslateService){
     this.sidnavItems = [
-      {text: 'Home', isActive: true, urlImg: 'assets/home.svg'},
-      {text: 'Operation', isActive: false, urlImg: 'assets/transaction.svg'},
-      {text: 'Map', isActive: false, urlImg: 'assets/map.svg'},
+      {text: 'Vehicles', isActive: false, urlImg: 'assets/home.svg', routerLink: 'vehicles'},
+      {text: 'Create Form', isActive: true, urlImg: 'assets/transaction.svg', routerLink: 'dynamic-form/create'},
+      {text: 'View Form', isActive: false, urlImg: 'assets/map.svg', routerLink: 'dynamic-form/view'},
       {text: 'Reports', isActive: false, urlImg: 'assets/report.png'},
       {text: 'Control Panel', isActive: false, urlImg: 'assets/panel.png'}
     ]

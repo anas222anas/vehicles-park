@@ -7,7 +7,9 @@
         <div class="sidnav-items">
             <div *ngFor="let item of sidnavItems; let i = index" class="sidnav-item" (click)="acivated(i)">
                 <img [src]="item.urlImg" alt="">
-                <div class="sidnav-text"[class.isActive]="item.isActive">{{item.text}}</div>
+                <div class="sidnav-text"[class.isActive]="item.isActive"
+                    [routerLink]="item?.routerLink"
+                >{{item.text}}</div>
             </div>
             <!-- <div *ngFor="let item of sidnavItems; let i = index" class="sidnav-item" (click)="acivated(i)">
                 <div>

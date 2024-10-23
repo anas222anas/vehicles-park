@@ -31,7 +31,7 @@ export class ToolbarComponent implements OnInit {
     title: 'GIS Data Request',
     description: 'Ahmed Khalil is Waiting for approval to Add New GIS Data', date: '23/01/2023', readonly: true
   }]
-  profile: Profile = {name: 'John Doe', role: 'Admin', img: 'assets/Anas.png'} 
+  profile: Profile = {name: 'Anas Zidan', role: 'Admin', img: 'assets/Anas.png'} 
 
   config = {
     placeHolder: 'Search',
