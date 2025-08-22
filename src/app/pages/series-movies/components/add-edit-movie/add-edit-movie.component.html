@@ -1,0 +1,108 @@
+<!-- <form [formGroup]="movieForm" (ngSubmit)="onSubmit()" class="movie-form">
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Real Name</mat-label>
+        <input matInput formControlName="realName" />
+        <mat-error *ngIf="movieForm.get('realName')?.hasError('required')">
+            Real name is required
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Display Name</mat-label>
+        <input matInput formControlName="displayName" />
+        <mat-error *ngIf="movieForm.get('displayName')?.hasError('required')">
+            Display name is required
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Release Date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="releaseDate" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <mat-error *ngIf="movieForm.get('releaseDate')?.hasError('required')">
+            Release date is required
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Resolution</mat-label>
+        <mat-select formControlName="resolution">
+            <mat-option *ngFor="let option of resolutionOption" [value]="option">
+                {{ option }}
+            </mat-option>
+        </mat-select>
+        <mat-error *ngIf="movieForm.get('resolution')?.hasError('required')">
+            Resolution is required
+        </mat-error>
+    </mat-form-field>
+
+    <div class="button-row">
+        <button mat-raised-button color="primary" type="submit">Save</button>
+        <button mat-button type="reset" (click)="movieForm.reset()">Reset</button>
+    </div>
+</form> -->
+
+
+
+<div class="form-container">
+    <!-- Header with title + close button -->
+    <div class="form-header">
+        <h2>Movie Details</h2>
+        <button mat-icon-button color="warn" (click)="onClose()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+
+    <!-- Reactive Form -->
+    <form [formGroup]="movieForm" (ngSubmit)="onSubmit()" class="movie-form">
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Real Name</mat-label>
+            <input matInput formControlName="realName" cdkFocusInitial/>
+            <mat-error *ngIf="movieForm.get('realName')?.hasError('required')">
+                Real name is required
+            </mat-error>
+        </mat-form-field>
+
+        <!-- <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Display Name</mat-label>
+            <input matInput formControlName="displayName" />
+            <mat-error *ngIf="movieForm.get('displayName')?.hasError('required')">
+                Display name is required
+            </mat-error>
+        </mat-form-field> -->
+
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Date</mat-label>
+            <mat-select formControlName="releaseDate">
+                <mat-option *ngFor="let option of yearsOption" [value]="option">
+                    {{ option }}
+                </mat-option>
+            </mat-select>
+            <mat-error *ngIf="movieForm.get('releaseDate')?.hasError('required')">
+                Date is required
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Resolution</mat-label>
+            <mat-select formControlName="resolution">
+                <mat-option *ngFor="let option of resolutionOption" [value]="option">
+                    {{ option }}
+                </mat-option>
+            </mat-select>
+            <mat-error *ngIf="movieForm.get('resolution')?.hasError('required')">
+                Resolution is required
+            </mat-error>
+        </mat-form-field>
+
+        <!-- Buttons -->
+        <div class="button-row">
+            <button mat-raised-button color="primary" type="submit" [disabled]="movieForm.invalid">
+                Save
+            </button>
+            <button mat-stroked-button color="warn" type="button" (click)="onClose()">
+                Cancel
+            </button>
+        </div>
+    </form>
+</div>

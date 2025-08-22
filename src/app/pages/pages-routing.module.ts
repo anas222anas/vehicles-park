@@ -18,7 +18,12 @@ const routes: Routes = [
             {
                 path: 'dynamic-form',
                 loadChildren: () => import('./dynamic-form/dynamic-form.module').then(m => m.DynamicFormModule)
+            },
+            {
+                path: 'series-movies',
+                loadChildren: () => import('./series-movies/series-movies.module').then(m => m.SeriesMoviesModule)
             }
+            
         ]
     },
 ];

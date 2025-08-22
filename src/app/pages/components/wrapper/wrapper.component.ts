@@ -21,8 +21,8 @@ export class WrapperComponent implements OnInit{
       {text: 'Vehicles', isActive: false, urlImg: 'assets/home.svg', routerLink: 'vehicles'},
       {text: 'Create Form', isActive: true, urlImg: 'assets/transaction.svg', routerLink: 'dynamic-form/create'},
       {text: 'View Form', isActive: false, urlImg: 'assets/map.svg', routerLink: 'dynamic-form/view'},
-      {text: 'Reports', isActive: false, urlImg: 'assets/report.png'},
-      {text: 'Control Panel', isActive: false, urlImg: 'assets/panel.png'}
+      {text: 'Movies', isActive: false, urlImg: 'assets/report.png', routerLink: 'series-movies/movies-view'},
+      {text: 'Series', isActive: false, urlImg: 'assets/panel.png', routerLink: 'series-movies/series-view'}
     ]
   }
   ngOnInit(): void {

@@ -1,0 +1,179 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "realName": "20 Days In Mariupol",
+      "displayName": "20 Days In Mariupol",
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "2",
+      "realName": "300",
+      "displayName": "300",
+      "releaseDate": "2006",
+      "resolution": "4K"
+    },
+    {
+      "id": "3",
+      "realName": "A Man Called Otto",
+      "displayName": "A Man Called Otto",
+      "releaseDate": "2022",
+      "resolution": "1080"
+    },
+    {
+      "id": "4",
+      "realName": "Alien",
+      "displayName": "Alien",
+      "releaseDate": "1979",
+      "resolution": "4K"
+    },
+    {
+      "id": "5",
+      "realName": "Alien Resurrection DC",
+      "displayName": "Alien Resurrection DC",
+      "releaseDate": "1997",
+      "resolution": "1080"
+    },
+    {
+      "id": "6",
+      "realName": "Allegiant",
+      "displayName": "Allegiant",
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "7",
+      "realName": "American Pie",
+      "displayName": null,
+      "releaseDate": "1999",
+      "resolution": "1080"
+    },
+    {
+      "id": "8",
+      "realName": "American Pie 2",
+      "displayName": null,
+      "releaseDate": "2001",
+      "resolution": "1080"
+    },
+    {
+      "id": "9",
+      "realName": "American Pie Presents Band Camp",
+      "displayName": null,
+      "releaseDate": "2005",
+      "resolution": "1080"
+    },
+    {
+      "id": "10",
+      "realName": "American Pie Presents Beta House",
+      "displayName": null,
+      "releaseDate": "2007",
+      "resolution": "1080"
+    },
+    {
+      "id": "11",
+      "realName": "American Pie Presents Girls Rules",
+      "displayName": null,
+      "releaseDate": "2020",
+      "resolution": "1080"
+    },
+    {
+      "id": "12",
+      "realName": "Annabelle",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "1080"
+    },
+    {
+      "id": "13",
+      "realName": "Annabelle Creation",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "1080"
+    },
+    {
+      "id": "14",
+      "realName": "Ant-Man",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "4K"
+    },
+    {
+      "id": "15",
+      "realName": "Ant-Man And The Wasp",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "4K"
+    },
+    {
+      "id": "16",
+      "realName": "Ant-Man And The Wasp Quantumania",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "17",
+      "realName": "Army Of One",
+      "displayName": null,
+      "releaseDate": "2020",
+      "resolution": "1080"
+    },
+    {
+      "id": "18",
+      "realName": "Army Of The Dead",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "19",
+      "realName": "Atlas",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "20",
+      "realName": "Avengers Age of Ultron",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "1080"
+    },
+    {
+      "id": "21",
+      "realName": "Avengers Endgame",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "22",
+      "realName": "Avengers Infinity War",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "4K"
+    },
+    {
+      "id": "23",
+      "realName": "Ballerina",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "24",
+      "realName": "Battle Los Angeles",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "4K"
+    },
+    {
+      "id": "25",
+      "realName": "Battle Of Los Angeles",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "1080"
+    }
+  ]
+}

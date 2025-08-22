@@ -44,6 +44,6 @@ import { SelectOptionsComponent } from './components/select-options/select-optio
     NgxsModule.forFeature([DynamicFormState]),
 
   ],
-  providers: [provideNativeDateAdapter()]
+  providers: []
 })
 export class DynamicFormModule { }

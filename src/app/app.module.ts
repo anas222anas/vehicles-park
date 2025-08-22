@@ -11,10 +11,12 @@ import { AppInjector } from './shared/services/app-injector';
 import { SharedModule } from './shared/shared.module';
 import { NgxsModule } from '@ngxs/store';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MoviesViewComponent } from './pages/series-movies/components/movies-view/movies-view.component';
+import { provideNativeDateAdapter } from '@angular/material/core';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     provideAnimationsAsync(),
     {
       provide: APP_BASE_HREF, useValue: '/vehicles-park/'
-    }
+    },
+    provideNativeDateAdapter()
   ],
   bootstrap: [AppComponent]
 })
