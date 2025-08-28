@@ -174,6 +174,958 @@
       "displayName": null,
       "releaseDate": "2011",
       "resolution": "1080"
+    },
+    {
+      "id": "26",
+      "realName": "Battleship",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "4K"
+    },
+    {
+      "id": "27",
+      "realName": "Black Crab",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "1080"
+    },
+    {
+      "id": "28",
+      "realName": "Black Hawk Down",
+      "displayName": null,
+      "releaseDate": "2001",
+      "resolution": "4K"
+    },
+    {
+      "id": "29",
+      "realName": "Black Panther Wakanda Forever",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "4K"
+    },
+    {
+      "id": "30",
+      "realName": "Black Widow",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "31",
+      "realName": "Blonde",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "4K"
+    },
+    {
+      "id": "32",
+      "realName": "Bray Wyatt Becoming Immortal",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "33",
+      "realName": "Cam",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "1080"
+    },
+    {
+      "id": "34",
+      "realName": "Captain America Brave New World",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "35",
+      "realName": "Captain America Civil War",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "36",
+      "realName": "Captain America The First Avenger",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "4K"
+    },
+    {
+      "id": "37",
+      "realName": "Captain America The Winter Soldier",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "38",
+      "realName": "Captain Marvel",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "1080"
+    },
+    {
+      "id": "39",
+      "realName": "Civil War",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "40",
+      "realName": "Code 8",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "1080"
+    },
+    {
+      "id": "41",
+      "realName": "Code 8 Part II",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "42",
+      "realName": "Dark Phoenix",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "43",
+      "realName": "Deadpool",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "44",
+      "realName": "Deadpool 2",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "4K"
+    },
+    {
+      "id": "45",
+      "realName": "Deadpool Wolverine",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "46",
+      "realName": "Divergent",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "47",
+      "realName": "Doctor Strange",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "48",
+      "realName": "Doctor Strange In The Multiverse Of Madness",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "4K"
+    },
+    {
+      "id": "49",
+      "realName": "Dune Part Two",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "50",
+      "realName": "Dunkirk",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "51",
+      "realName": "Edge Of Tomorrow",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "52",
+      "realName": "Elysium",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "53",
+      "realName": "Emmanuelle II",
+      "displayName": null,
+      "releaseDate": "1975",
+      "resolution": "1080"
+    },
+    {
+      "id": "54",
+      "realName": "Enemy At The Gates",
+      "displayName": null,
+      "releaseDate": "2001",
+      "resolution": "4K"
+    },
+    {
+      "id": "55",
+      "realName": "Eternals",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "56",
+      "realName": "Fast X",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "57",
+      "realName": "Friends With Benefits",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "1080"
+    },
+    {
+      "id": "58",
+      "realName": "Full Metal Jacket",
+      "displayName": null,
+      "releaseDate": "1987",
+      "resolution": "4K"
+    },
+    {
+      "id": "59",
+      "realName": "Furiosa A Mad Max Saga",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "60",
+      "realName": "Fury",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "61",
+      "realName": "Ghosted",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "62",
+      "realName": "Godzilla",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "63",
+      "realName": "Godzilla King Of The Monsters",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "64",
+      "realName": "Godzilla Minus One",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "65",
+      "realName": "Godzilla Vs. Kong",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "66",
+      "realName": "Godzilla X Kong The New Empire",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "67",
+      "realName": "Greyhound",
+      "displayName": null,
+      "releaseDate": "2020",
+      "resolution": "4K"
+    },
+    {
+      "id": "68",
+      "realName": "Guardians of the Galaxy",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "1080"
+    },
+    {
+      "id": "69",
+      "realName": "Guardians Of The Galaxy Vol. 2",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "70",
+      "realName": "Guardians Of The Galaxy Vol. 3",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "71",
+      "realName": "Hacksaw Ridge",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "72",
+      "realName": "Havoc",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "73",
+      "realName": "Hush",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "74",
+      "realName": "I Want You",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "1080"
+    },
+    {
+      "id": "75",
+      "realName": "Inception",
+      "displayName": null,
+      "releaseDate": "2010",
+      "resolution": "4K"
+    },
+    {
+      "id": "76",
+      "realName": "Inside Out 2",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "77",
+      "realName": "Insidious",
+      "displayName": null,
+      "releaseDate": "2010",
+      "resolution": "4K"
+    },
+    {
+      "id": "78",
+      "realName": "Interstellar",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "79",
+      "realName": "Iron Man",
+      "displayName": null,
+      "releaseDate": "2008",
+      "resolution": "1080"
+    },
+    {
+      "id": "80",
+      "realName": "Iron Man 2",
+      "displayName": null,
+      "releaseDate": "2010",
+      "resolution": "1080"
+    },
+    {
+      "id": "81",
+      "realName": "Iron Man Three",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "82",
+      "realName": "Iron Sky",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "1080"
+    },
+    {
+      "id": "83",
+      "realName": "John Wick Chapter 4",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "84",
+      "realName": "Jumanji",
+      "displayName": null,
+      "releaseDate": "1995",
+      "resolution": "4K"
+    },
+    {
+      "id": "85",
+      "realName": "Jumanji The Next Level",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "86",
+      "realName": "Jumanji Welcome To The Jungle",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "87",
+      "realName": "Jurassic World",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "4K"
+    },
+    {
+      "id": "88",
+      "realName": "Jurassic World Fallen Kingdom",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "4K"
+    },
+    {
+      "id": "89",
+      "realName": "Lady Chatterleys Lover",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "1080"
+    },
+    {
+      "id": "90",
+      "realName": "Logan",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "91",
+      "realName": "Love In The Villa",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "1080"
+    },
+    {
+      "id": "92",
+      "realName": "Malcolm Marie",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "93",
+      "realName": "Maze Runner The Death Cure",
+      "displayName": null,
+      "releaseDate": "2018",
+      "resolution": "4K"
+    },
+    {
+      "id": "94",
+      "realName": "Maze Runner The Scorch Trials",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "4K"
+    },
+    {
+      "id": "95",
+      "realName": "Meg 2 The Trench",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "96",
+      "realName": "Midway",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "97",
+      "realName": "Mission Impossible - Dead Reckoning Part One",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "98",
+      "realName": "Muck",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "1080"
+    },
+    {
+      "id": "99",
+      "realName": "No Strings Attached",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "1080"
+    },
+    {
+      "id": "100",
+      "realName": "Oldboy",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "1080"
+    },
+    {
+      "id": "101",
+      "realName": "Olympus Has Fallen",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "102",
+      "realName": "Oppenheimer",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "103",
+      "realName": "Outside The Wire",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "104",
+      "realName": "Pearl Harbor",
+      "displayName": null,
+      "releaseDate": "2001",
+      "resolution": "1080"
+    },
+    {
+      "id": "105",
+      "realName": "R.I.P.D.",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "106",
+      "realName": "Rebel Ridge",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "107",
+      "realName": "Red Notice",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "108",
+      "realName": "Resident Evil Death Island",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "109",
+      "realName": "Saving Private Ryan",
+      "displayName": null,
+      "releaseDate": "1998",
+      "resolution": "4K"
+    },
+    {
+      "id": "110",
+      "realName": "Shang-Chi And The Legend Of The Ten Rings",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "111",
+      "realName": "Shin Godzilla",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "112",
+      "realName": "Spectral",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "113",
+      "realName": "Spider-Man Far From Home",
+      "displayName": null,
+      "releaseDate": "2019",
+      "resolution": "4K"
+    },
+    {
+      "id": "114",
+      "realName": "Spider-Man Homecoming",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "115",
+      "realName": "Spider-Man No Way Home",
+      "displayName": null,
+      "releaseDate": "2021",
+      "resolution": "4K"
+    },
+    {
+      "id": "116",
+      "realName": "Sympathy For The Devil",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "117",
+      "realName": "Terminator Salvation",
+      "displayName": null,
+      "releaseDate": "2009",
+      "resolution": "4K"
+    },
+    {
+      "id": "118",
+      "realName": "The Accountant 2",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "119",
+      "realName": "The Avengers",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "4K"
+    },
+    {
+      "id": "120",
+      "realName": "The Bloody Hundredth",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "121",
+      "realName": "The Blue Angels",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "122",
+      "realName": "The Book of Eli",
+      "displayName": null,
+      "releaseDate": "2010",
+      "resolution": "1080"
+    },
+    {
+      "id": "123",
+      "realName": "The Conjuring 2",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "124",
+      "realName": "The Covenant",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "125",
+      "realName": "The Dictator",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "1080"
+    },
+    {
+      "id": "126",
+      "realName": "The Divergent Series Insurgent",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "4K"
+    },
+    {
+      "id": "127",
+      "realName": "The Flash",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "128",
+      "realName": "The Gorge",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "129",
+      "realName": "The Hunger Games",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "4K"
+    },
+    {
+      "id": "130",
+      "realName": "The Hunger Games Catching Fire",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "131",
+      "realName": "The Hunger Games Mockingjay - Part 1",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "132",
+      "realName": "The Hunger Games Mockingjay - Part 2",
+      "displayName": null,
+      "releaseDate": "2015",
+      "resolution": "4K"
+    },
+    {
+      "id": "133",
+      "realName": "The Hunger Games The Ballad Of Songbirds Snakes",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "134",
+      "realName": "The Incredible Hulk",
+      "displayName": null,
+      "releaseDate": "2008",
+      "resolution": "4K"
+    },
+    {
+      "id": "135",
+      "realName": "The Marvels",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "136",
+      "realName": "The Maze Runner",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "137",
+      "realName": "The Ministry Of Ungentlemanly Warfare",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "138",
+      "realName": "The Monkey",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "1080"
+    },
+    {
+      "id": "139",
+      "realName": "The New Mutants",
+      "displayName": null,
+      "releaseDate": "2020",
+      "resolution": "4K"
+    },
+    {
+      "id": "140",
+      "realName": "The Nun II",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "4K"
+    },
+    {
+      "id": "141",
+      "realName": "The Old Guard 2",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "142",
+      "realName": "The Pianist",
+      "displayName": null,
+      "releaseDate": "2002",
+      "resolution": "4K"
+    },
+    {
+      "id": "143",
+      "realName": "The Vow",
+      "displayName": null,
+      "releaseDate": "2012",
+      "resolution": "4K"
+    },
+    {
+      "id": "144",
+      "realName": "The Wolverine",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "145",
+      "realName": "Thor",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "4K"
+    },
+    {
+      "id": "146",
+      "realName": "Thor Ragnarok",
+      "displayName": null,
+      "releaseDate": "2017",
+      "resolution": "4K"
+    },
+    {
+      "id": "147",
+      "realName": "Thor The Dark World",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "4K"
+    },
+    {
+      "id": "148",
+      "realName": "Through My Window",
+      "displayName": null,
+      "releaseDate": "2022",
+      "resolution": "1080"
+    },
+    {
+      "id": "149",
+      "realName": "Thunderbolts",
+      "displayName": null,
+      "releaseDate": "2025",
+      "resolution": "4K"
+    },
+    {
+      "id": "150",
+      "realName": "Viduthalai Part 2",
+      "displayName": null,
+      "releaseDate": "2024",
+      "resolution": "4K"
+    },
+    {
+      "id": "151",
+      "realName": "Warcraft",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "152",
+      "realName": "Warhorse One",
+      "displayName": null,
+      "releaseDate": "2023",
+      "resolution": "1080"
+    },
+    {
+      "id": "153",
+      "realName": "White House Down",
+      "displayName": null,
+      "releaseDate": "2013",
+      "resolution": "1080"
+    },
+    {
+      "id": "154",
+      "realName": "X First Class",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "4K"
+    },
+    {
+      "id": "155",
+      "realName": "X2 X-Men United",
+      "displayName": null,
+      "releaseDate": "2003",
+      "resolution": "4K"
+    },
+    {
+      "id": "156",
+      "realName": "X-Men Apocalypse",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "4K"
+    },
+    {
+      "id": "157",
+      "realName": "X-Men Days Of Future Past",
+      "displayName": null,
+      "releaseDate": "2014",
+      "resolution": "4K"
+    },
+    {
+      "id": "158",
+      "realName": "X-Men Origins Wolverine",
+      "displayName": null,
+      "releaseDate": "2009",
+      "resolution": "1080"
+    },
+    {
+      "id": "159",
+      "realName": "X-Men The Last Stand",
+      "displayName": null,
+      "releaseDate": "2006",
+      "resolution": "4K"
+    },
+    {
+      "id": "160",
+      "realName": "Zero Days",
+      "displayName": null,
+      "releaseDate": "2016",
+      "resolution": "1080"
+    },
+    {
+      "id": "161",
+      "realName": "X-Men First Class 35mm Special",
+      "displayName": null,
+      "releaseDate": "2011",
+      "resolution": "1080"
     }
   ]
 }
